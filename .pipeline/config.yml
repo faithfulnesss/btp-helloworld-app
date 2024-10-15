@@ -5,7 +5,7 @@ service:
   buildToolVersion: "MBTJ17N18"
   stages:
     Release:
-      cfCredentialsId: "github"
+      cfCredentialsId: "btp-deploy"
 stages:
   Build:
     source: project1
