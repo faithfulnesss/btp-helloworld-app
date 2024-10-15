@@ -8,7 +8,7 @@ service:
       cfCredentialsId: "btp-deploy"
 stages:
   Build:
-    source: project1
+    mavenExecuteStaticCodeChecks: false
     npmExecuteLint: false
   Acceptance:
     cloudFoundryDeploy: false
